@@ -1,0 +1,21 @@
+# Sensitive/local settings
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite3
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+# Frontend
+node_modules/
+dist/
+*.tsbuildinfo
+# Local editor / OS
+.vscode/
+.idea/
+.DS_Store
